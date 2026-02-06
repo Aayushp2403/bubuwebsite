@@ -63,6 +63,7 @@ function App() {
               animate={noBtnPosition}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
               onMouseEnter={moveNoButton}
+              onTouchStart={moveNoButton}
               onClick={moveNoButton}
               className="px-8 py-3 bg-gray-200 text-gray-600 rounded-full font-semibold hover:bg-gray-300 transition-colors cursor-pointer"
             >
